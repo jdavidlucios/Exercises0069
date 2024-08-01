@@ -1,0 +1,13 @@
+/* Estilos básicos para la página */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.caja1 {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#text2 {
+  display: none;
+}
