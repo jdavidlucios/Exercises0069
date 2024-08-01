@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Bancaria</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Plataforma Bancaria</h1>
+    <div id="login">
+        <h2>Iniciar Sesión</h2>
+        <label for="identificador">Identificador:</label>
+        <input type="text" id="identificador"><br>
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave"><br>
+        <button onclick="login()">Ingresar</button>
+        <p id="loginError" style="color: red;"></p>
+    </div>
+    
+    <div id="menu" style="display: none;">
+        <h2 id="welcomeMessage"></h2>
+        <button onclick="mostrarSaldo()">Ver Saldo</button>
+        <button onclick="realizarGiro()">Realizar Giro</button>
+        <button onclick="realizarDeposito()">Realizar Depósito</button>
+        <button onclick="salir()">Salir</button>
+        <div id="acciones"></div>
+    </div>
+</body>
+</html>
