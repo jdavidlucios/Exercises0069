@@ -1,0 +1,45 @@
+python manage.py makemigrations
+
+Genera archivos de migración basados en los cambios detectados en los modelos de la aplicación.
+
+
+python manage.py migrate
+
+Aplica las migraciones pendientes a la base de datos para actualizar su estructura según los modelos.
+
+
+python manage.py shell
+
+Abre una consola interactiva de Python con el entorno de Django cargado, útil para probar código rápidamente.
+
+
+python manage.py dbshell
+
+Abre una consola de la base de datos configurada en el proyecto (requiere herramientas específicas instaladas, como psql para PostgreSQL).
+
+
+python manage.py showmigrations
+
+Muestra todas las migraciones de las aplicaciones y su estado (aplicadas o no).
+
+
+python manage.py dumpdata
+
+Exporta datos de la base de datos en formato JSON o XML, útil para respaldos.
+
+
+python manage.py test
+
+Ejecuta pruebas unitarias en la aplicación, asegurando que el código funcione como se espera.
+
+
+python manage.py testserver <ruta_archivo_fixture>
+
+Inicia un servidor de desarrollo utilizando datos de prueba específicos.
+
+
+python manage.py diffsettings
+
+Muestra las configuraciones personalizadas en el proyecto en comparación con los valores predeterminados de Django.
+
+
